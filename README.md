@@ -2,7 +2,7 @@
 
  - Clone "stable_diffusion_xl_image_comparator"
  - Open Anaconda prompt ( Recommended)
- - cd to "stable_diffusion_image_comparator" directory
+ - cd to "stable_diffusion_xl_image_comparator" directory
  
 Run following command to create conda environment
  
@@ -18,9 +18,9 @@ pip install .
 pip install -r requirements-sdxl.txt
 ```
 ## Run Test
- - Copy Stable Diffusion 1.5 models from [SD_XL_models]() 
+ - Copy Stable Diffusion XL models from [SD_XL_models]() 
  - Unzip " models" directory and put it inside "stable_diffusion_image_comparator"
- - From conda or command prompt, cd path to "stable_diffusion_image_comparator" directory  
+ - From conda or command prompt, cd path to "stable_diffusion_xl_image_comparator" directory  
  
  Sample Run: 
  ```

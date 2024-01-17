@@ -95,7 +95,7 @@ def run_comparator(platform, thresholds, corr_const, verbosity):
     return ret_code
     
 def add_image_compare_params(parser):
-    parser.add_argument("--thresholds", default=[25.0, 20.0, 15.0], nargs="*", type=float, help="Maximum difference between two pixel. ")
+    parser.add_argument("--thresholds", default=[15.0, 10.0, 5.0], nargs="*", type=float, help="Maximum difference between two pixel. ")
     parser.add_argument("--correlation_const", default=2.5, type=float, help="When a threshold value is small, corelation constant should be higher")
     parser.add_argument("--platform", default="DG2", type=str, help="Platform: DG2 or MTLH")
     parser.add_argument("--verbosity", action="store_true", help="Print error details")

@@ -23,6 +23,12 @@ from packaging import version
 from olive.model import ONNXModelHandler
 from olive.workflows import run as olive_run
 
+import numpy as np
+import random
+np.random.seed(1024)
+#random.seed(1024)
+#torch.manual_seed(1024)
+
 # pylint: disable=redefined-outer-name
 
 
