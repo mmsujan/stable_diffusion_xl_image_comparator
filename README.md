@@ -8,11 +8,11 @@ Run following command to create conda environment
  
 ```
 conda create -n sd_xl
-conda activate sd-xl
+conda activate sd_xl
 pip install .
 pip install -r requirements-sdxl.txt
 ```
-For python environment, open command prompt, and cd to "stable_diffusion_image_comparator" directory. Run following command:
+For python environment, open command prompt, and cd to "stable_diffusion_xl_image_comparator" directory. Run following command:
 ```
 pip install .
 pip install -r requirements-sdxl.txt
