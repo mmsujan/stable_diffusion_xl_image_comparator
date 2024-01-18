@@ -19,7 +19,7 @@ pip install -r requirements-sdxl.txt
 ```
 ## Run Test
  - Copy Stable Diffusion XL models from [SD_XL_models](https://intel-my.sharepoint.com/:f:/p/mohammad_sujan_miah/EjPhb48v7ZpOtLw8mv8Sep8B8rRgGckHBirpMXCsQiKi9w?e=Fjpnia) 
- - Unzip " models" directory and put it inside "stable_diffusion_image_comparator"
+ - Unzip " models" directory and put it inside "stable_diffusion_xl_image_comparator"
  - From conda or command prompt, cd path to "stable_diffusion_xl_image_comparator" directory  
  
  Sample Run: 
@@ -47,4 +47,4 @@ optional arguments:
   --verbosity           Print error details
  
 ```
- - Note : E2E Performance information is reported as it/s (but sometimes as s/it  <- CI folks need to aware of it). Also SD_XL model only support DG2 platform.
+ - Note : E2E Performance information is reported as it/s (but sometimes as s/it  <- CI folks need to aware of it). Currently, SD_XL model only support DG2 platform.
