@@ -1,9 +1,9 @@
-accelerate
-diffusers
+accelerate==0.26.1
+diffusers==0.25.1
 invisible-watermark
-onnx
-optimum
-pillow
+onnx==1.15.0
+optimum==1.16.1
+pillow==10.2.0
 protobuf==3.20.3 # protobuf 4.x aborts with OOM when optimizing unet
-torch
-transformers
+torch==2.1.2
+transformers==4.36.2

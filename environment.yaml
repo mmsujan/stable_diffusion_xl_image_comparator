@@ -1,0 +1,3 @@
+name: sd-xl
+dependencies:
+  - pip==21.2.4

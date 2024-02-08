@@ -7,8 +7,8 @@
 Run following command to create conda environment
  
 ```
-conda create -n sd_xl
-conda activate sd_xl
+conda env create -f environment.yaml
+conda activate sd-xl
 pip install .
 pip install -r requirements-sdxl.txt
 ```

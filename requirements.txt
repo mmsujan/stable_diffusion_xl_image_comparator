@@ -1,10 +1,6 @@
-numpy
-onnx
-optuna
-pandas
-protobuf<4.0.0
-pydantic
-pyyaml
-torch
-torchmetrics>=1.0.0
-transformers
+numpy==1.26.1
+optuna==3.5.0
+pandas==2.1.4
+pydantic==1.10.14
+pyyaml==6.0.1
+torchmetrics==0.10.3
